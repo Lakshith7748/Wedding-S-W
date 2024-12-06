@@ -13,6 +13,7 @@ body {
     color: aliceblue;
     position: fixed;
     width:100%;
+    z-index: 1;
 
 }
 .navdiv{
@@ -44,4 +45,3 @@ li a{
     width: 500px;
     height: auto;
 }
-
