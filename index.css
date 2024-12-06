@@ -1,16 +1,19 @@
 body {
     background-image: url("background image.jpeg");
-    opacity: %;
+    margin: 0%;
 }
 *{
     text-decoration: none;
 }
 .navbar{
-    background:rgb(132, 129, 129);
+    background:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 15px;
     padding-left: 15px;
     color: aliceblue;
+    position: fixed;
+    width:100%;
+
 }
 .navdiv{
     display: flex;
