@@ -5,37 +5,42 @@ body {
 *{
     text-decoration: none;
 }
-.navbar{
-    background:black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-right: 15px;
-    padding-left: 15px;
+.navbar {
+    background: black;
+    font-size: 1em;
     color: aliceblue;
     position: fixed;
-    width:100%;
-    z-index: 1;
-
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px;
 }
-.navdiv{
+
+.navdiv {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
-.logo{
-    width: 200px;
-    height: px;
 
+.logo img {
+    width: 150px;
+    height: auto;
 }
-li{
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
     list-style: none;
-    display: inline-block;
-
 }
-li a{
+
+li a {
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: bold;
-    margin-right: 40px;
 }
 .moddagudu{
     width: 202px;
