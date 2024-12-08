@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: Montserrat;
+}
+body {
+  /* background: ; */
+  background-size: cover;
+}
+.contact {
+  position: relative;
+  padding: 50px 100px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.contact .content {
+  position: absolute;
+  width: 800px;
+  text-align: center;
+  margin-top: 2px;
+}
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: brown;
+}
+.contact .content p{
+  font-weight: 300;
+
+}
+.sleep{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+
+}
+.sleep .contry {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.sleep .contry .box{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+
+
+}
+.sleep .contry .box .icon {
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.sleep .contry .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 300;
+
+}
+.sleep .contry .box .text h3{
+  font-weight: 500;
+  color: #d41500;
+}
+
+.Contactform {
+  width:70%;
+  background: rgb(236, 207, 168);
+  padding: 20px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 20px 2px rgb(66, 66, 66) ;
+
+}
+.Contactform h2 {
+  font-size: 30px;
+  color:#333;
+  font-weight: 500;
+
+}
+.Contactform .inputbox {
+  position: relative;
+  width:100%;
+  margin-top: 10px;
+
+   
+}
+.Contactform .inputbox input{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+
+
+
+}
+.Contactform .inputbox span{
+  position: absolute;
+  left:0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+
+   
+
+}
+.Contactform .inputbox input :focus ~span
+.Contactform .inputbox input :valid ~span
+.Contactform .inputbox textarea :focus ~span
+.Contactform .inputbox textarea :valid ~span {
+  color:#e91e63;
+  font-size: 12px;
+  transform:translateY(-20px);
+
+
+}
+
+.Contactform .inputbox input[type="submit"] {
+  width: 100px;
+  background: rgb(179, 237, 245);
+  cursor: pointer;
+}
+.content{
+  top: 5%;
+}
