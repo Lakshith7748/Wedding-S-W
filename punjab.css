@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-image: url("background image.jpeg");
 }
 .main {
     position: relative;
@@ -22,10 +23,10 @@ body {
 }
 .pun {
     position: absolute;
-    top: 2%;
-    right: 2%;
+    top: 4.1%;
+    right: 2.5%;
     width: 650px;
-    height: 450px;
+    height: 480px;
     box-shadow: 2px 2px 4px black;
     border: 5px solid white;
     overflow: hidden;
@@ -443,4 +444,28 @@ body {
     height: 160px;
     top: 67%;
     right: 42%;
+}
+.checkour{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    left: 5%;
+    margin: 20px 0 0 0;
+}
+.checkour img{
+    bottom: 1%;
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 2px solid black;
+    transition: all ease-in-out 1s;
+}
+.checkour img:hover {
+    width: 70%;
+}
+.button:hover{
+    background-color: bisque;
 }
