@@ -1,35 +1,30 @@
 body {
   background: url(https://img.freepik.com/free-vector/watercolor-background-pastel-colors_79603-794.jpg);
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.content{
-  
+.content {
   padding: 20px;
   margin-right: 800px;
   font-size: 40px;
   margin-top: 60px;
   margin-left: 30px;
-
-
 }
 
-.pic1 img{
+.pic1 img {
   position: absolute;
   top: 10%;
   right: 6%;
   width: 580px;
   height: 720px;
-  border-color:whitesmoke;
+  border-color: whitesmoke;
   border-width: 2px;
   border-style: solid;
-
-  
-
 }
-.quote p{
- 
+
+.quote p {
   width: 800px;
   height: 100px;
   font-style: italic;
@@ -37,48 +32,40 @@ body {
   margin-left: 140px;
   text-shadow: 3px 3px palevioletred;
   font-size: 40px;
-  
-
-
 }
-.hello{
+
+.hello {
   font-size: 30px;
   margin-top: 60px;
   margin-left: 40px;
   margin-bottom: 10px;
-  
 }
-.gallery{
+
+.gallery {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   height: 40px;
-  justify-content:space-evenly;
-
-  
+  justify-content: space-evenly;
 }
-.gallery img{
+
+.gallery img {
   width: 520px;
   height: 540px;
   border: 2px solid #ff3d0036;
-  border-radius: 12px ;
+  border-radius: 12px;
   box-shadow: 4px 7px 7px 0px #00000042;
   cursor: pointer;
   margin-top: 160px;
   transition: 400ms;
-
-
-
-   
 }
-.gallery img:hover{
+
+.gallery img:hover {
   filter: grayscale(1);
   transform: scale(1.03);
-
-
-
 }
+
 nav {
   position: fixed;
   top: 0;
@@ -93,7 +80,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   z-index: 1000;
-
 }
 
 .logo {
@@ -101,7 +87,7 @@ nav {
 }
 
 .logo img {
-  height: 200px; 
+  height: 200px;
   width: auto;
   padding-top: 20px;
 }
@@ -126,4 +112,102 @@ nav ul li a {
 nav ul li a:hover {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 6px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1200px) {
+  .content {
+    margin-right: 500px;
+    font-size: 35px;
+  }
+
+  .pic1 img {
+    width: 450px;
+    height: 600px;
+    right: 4%;
+  }
+
+  .quote p {
+    width: 600px;
+    font-size: 35px;
+    margin-left: 100px;
+  }
+
+  .gallery img {
+    width: 400px;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    margin-right: 0;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .pic1 img {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .quote p {
+    width: 90%;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .hello {
+    margin-left: 20px;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gallery img {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav ul li a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content,
+  .quote p {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .logo img {
+    height: 150px;
+  }
 }
