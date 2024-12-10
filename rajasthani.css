@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("background image.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    height: 200px; 
+    width: auto;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 30px 30px; 
+    color: #fff;
+    flex-direction: row-reverse; 
+}
+
+.hero-text {
+    max-width: 50%; 
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    color: black;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: black;
+    font-size: 25px;
+}
+
+.hero-image img {
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.image-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+.image-left, .image-right {
+    width: 45%;
+    z-index: -1;
+
+}
+
+.image-left img, .image-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    overflow: hidden;
+    z-index: -1;
+
+}
+
+.text-left, .text-right {
+    width: 50%;
+    padding: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    overflow: hidden;
+
+}
+
+
+.text-left h2, .text-right h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.text-left p, .text-right p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.reverse {
+    flex-direction: row-reverse; 
+}
+
+.special-paragraph {
+    text-align: center;
+    margin: 50px 30px;
+}
+
+.special-paragraph p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column img {
+    border-radius: 5px;
+    object-fit: contain;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.column img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-left: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: beige;
+    color: black;
+}
+.popping-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    animation: pop 1.5s infinite alternate; /* Applying the animation */
+}
+
+@keyframes pop {
+    0% {
+        font-size: 24px;
+    }
+    50% {
+        font-size: 36px; /* Larger size */
+    }
+    100% {
+        font-size: 24px;
+    }
+}
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    box-sizing: border-box;
+    background: rgba(40, 39, 38, 0.6);
+    padding: 40px 0px;
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+
+}
+.footer .social a{
+     font-size: 24px;
+     color: inherit;
+     border: 1px solid #ccc;
+     width: 40px;
+     height: 40px;
+     line-height: 38px;
+     display: inline-block;
+     text-align: center;
+     border-radius: 50%;
+     margin: 0 8px;
+    opacity: 0.75;
+
+}
+.footer .social a:hover{
+    opacity: 0.6;
+}
+.footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+
+}
+.footer ul  li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+.footer ul li{
+     display: inline-block;
+    padding: 0 15px;
+    text-align: center;
+
+
+}
+.footer ul li a:hover{
+    opacity: 1.0;
+}
+.footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
