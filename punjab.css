@@ -438,7 +438,7 @@ body {
     height: 500px;
     width: 750px;
 }
-.logo{
+.logo1{
     position: absolute;
     width: 250px;;
     height: 250px;
@@ -446,42 +446,53 @@ body {
     right:638px;
 }
 
-.navbar {
-    background: black;
-    font-size: 1em;
-    color: aliceblue;
+nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
-    padding: 10px 20px;
     height: 100px;
-}
-
-.navdiv {
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
 }
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    height: 200px; 
+    width: auto;
+    padding-top: 20px;
+}
+
 ul {
-    display: flex;
-    gap: 20px;
-}
-
-li {
     list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-li a {
-    color: white;
-    font-size: 1em;
-    font-weight: bold;
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
-.logo1 img {
-    width: 150px;
-    height: auto;
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
 }
 .finaltext{
     text-decoration: none;
