@@ -86,7 +86,6 @@ nav ul li a:hover {
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 .blog-heading{
     display: flex;
@@ -173,7 +172,10 @@ nav ul li a:hover {
 }
 
 .blog-text {
-    text-align: center; /* Center the button within the text container */
+    text-align: center;
+    font-size: 30px;
+    padding: 3px;
+     
 }
 
 .blog-text .blog-link:hover {
@@ -196,6 +198,115 @@ nav ul li a:hover {
 .blog-box:hover {
     transform: scale(1.06); /* Scale the box on hover */
     box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+}
+awards-section {
+    text-align: center;
+    padding: 40px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+.awards-gallery {
+    display: flex;
+    gap: 60px;
+    animation: scroll-loop 20s linear infinite;
+}
+.awards-heading {
+    font-size: 36px;
+    color: #324556;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.awards-gallery-wrapper {
+    display: flex;
+    gap: 0;
+    animation: scroll-seamless 20s linear infinite;
+}
+.award-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    padding: 12px;
+}
+@keyframes scroll-seamless {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-300px * 6));
+    }
+}
+footercontainer {
+    width: 97%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footercontent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.footernav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footernav ul li {
+    margin: 0 10px;
+}
+
+.footernav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    text-decoration: none;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.social a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social a:hover i {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.footerbottom {
+    text-align: center;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 1.1em;
 }
 
 
