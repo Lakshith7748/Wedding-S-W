@@ -207,7 +207,7 @@ nav ul li a:hover {
     font-weight: bold;
     color: #333;
     text-align: center;
-    animation: pop 1.5s infinite alternate; /* Applying the animation */
+    animation: pop 1.5s infinite alternate; 
 }
 
 @keyframes pop {
@@ -215,7 +215,7 @@ nav ul li a:hover {
         font-size: 24px;
     }
     50% {
-        font-size: 36px; /* Larger size */
+        font-size: 36px; 
     }
     100% {
         font-size: 24px;
@@ -292,4 +292,74 @@ nav ul li a:hover {
         transform: translateX(0px);
     }
 
+}
+.footercontainer {
+    width: 97%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footercontent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.footernav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footernav ul li {
+    margin: 0 10px;
+}
+
+.footernav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    text-decoration: none;
+    margin: 0 15px;
+    border-radius: 50%;
+}
+
+.social a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social a:hover i {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.footerbottom {
+    text-align: center;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 1.1em;
 }
