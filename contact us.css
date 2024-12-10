@@ -6,10 +6,10 @@
   box-sizing: border-box;
   font-size: Montserrat;
 }
-body {
-  /* background: ; */
-  background-size: cover;
+.contact {
+  background:url(https://img.freepik.com/premium-vector/hand-painted-watercolor-sepia-background-beige-digital-paper_199112-398.jpg);
 }
+  
 .contact {
   position: relative;
   padding: 50px 100px;
@@ -27,12 +27,13 @@ body {
   margin-top: 2px;
 }
 .contact .content h2 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 500;
   color: brown;
 }
 .contact .content p{
   font-weight: 300;
+  font-size: 22px;
 
 }
 .sleep{
@@ -69,7 +70,7 @@ body {
 .sleep .contry .box .text {
   display: flex;
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 26px;
   flex-direction: column;
   font-weight: 300;
 
