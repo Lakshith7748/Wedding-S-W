@@ -23,10 +23,10 @@ body {
 }
 .pun {
     position: absolute;
-    top: 4.9%;
-    right: 2.5%;
-    width: 650px;
-    height: 480px;
+    top: 7%;
+    right: 5%;
+    width: 40vw;
+    height: 45vh;
     box-shadow: 2px 2px 4px black;
     border: 5px solid white;
     overflow: hidden;
@@ -46,8 +46,8 @@ body {
     left: 5%;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    height: 300px;
-    width: 500px;
+    height: 80vw;
+    width: 60vh;
     font-size: 20px;
 }
 .text h1{
@@ -59,11 +59,11 @@ body {
 
 .aftex{
     position: absolute;
-    width: 750px;
-    height: 400px;
+    width: 48vw;
+    height: 47vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
-    top: 35%;
+    top: 34%;
     left: 15%;
     animation: appear linear;
     animation-timeline: view();
@@ -73,8 +73,8 @@ body {
 }
 .aftex1{
     position: absolute;
-    width: 550px;
-    height: 650px;
+    width: 38vw;
+    height: 78vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     top: 49%;
@@ -86,12 +86,12 @@ body {
 }
 .aftex2{
     position: absolute;
-    width: 550px;
-    height: 650px;
+    width: 34vw;
+    height: 75vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     top: 40%;
-    left: 62%;
+    left: 63%;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -99,12 +99,12 @@ body {
 }
 .aftex3{
     position: absolute;
-    width: 600px;
-    height: 450px;
+    width: 40vw;
+    height: 49vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
-    top: 50%;
-    left: 36%;
+    top: 49%;
+    left: 34%;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -112,11 +112,11 @@ body {
 }
 .aftex4{
     position: absolute;
-    width: 600px;
-    height: 700px;
+    width: 40vw;
+    height: 78vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
-    top: 65%;
+    top: 63%;
     left: 58%;
     animation: appear linear;
     animation-timeline: view();
@@ -125,12 +125,12 @@ body {
 }
 .aftex5{
     position: absolute;
-    width: 800px;
-    height: 550px;
+    width: 50vw;
+    height: 60vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     top: 72%;
-    left: 6%;
+    left: 8%;
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -440,10 +440,10 @@ body {
 }
 .logo1{
     position: absolute;
-    width: 250px;;
-    height: 250px;
+    width: 16vw;
+    height: 25vh;
     top: 65.6%;
-    right:638px;
+    right:43%;
 }
 
 nav {
