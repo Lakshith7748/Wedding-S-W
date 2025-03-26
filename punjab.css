@@ -25,8 +25,8 @@ body {
     position: absolute;
     top: 7%;
     right: 5%;
-    width: 40vw;
-    height: 45vh;
+    width: 42vw;
+    height: 46vh;
     box-shadow: 2px 2px 4px black;
     border: 5px solid white;
     overflow: hidden;
@@ -173,8 +173,8 @@ body {
 
 .afteA{
     position: absolute;
-    width: 650px;
-    height: 400px;
+    width: 42vw;
+    height: 47vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     top: 4%;
@@ -182,8 +182,8 @@ body {
 }
 .prewed{
     position: absolute;
-    width: 650px;
-    height: 400px;
+    width: 42vw;
+    height: 47vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     top: 21%;
@@ -203,8 +203,8 @@ body {
 }
 .mehandi{
     position: absolute;
-    width: 650px;
-    height: 400px;
+    width: 42vw;
+    height: 47vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     top: 38%;
@@ -223,8 +223,8 @@ body {
 }
 .sangeeth{
     position: absolute;
-    width: 650px;
-    height: 400px;
+    width: 42vw;
+    height: 47vh;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     top: 55%;
@@ -256,8 +256,8 @@ body {
     position: absolute;
     bottom: 2%;
     left: 2%;
-    height: 550px;
-    width: 450px;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears linear;
@@ -269,8 +269,8 @@ body {
     position: absolute;
     bottom: 2%;
     left: 35%;
-    height: 550px;
-    width: 450px;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears linear;
@@ -281,9 +281,9 @@ body {
 .mar3{
     position: absolute;
     bottom: 2%;
-    right: 2%;
-    height: 550px;
-    width: 450px;
+    right: 1%;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears 1s linear;
@@ -317,8 +317,8 @@ body {
     position: absolute;
     top: 0;
     left: 2%;
-    height: 550px;
-    width: 450px;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears linear;
@@ -330,8 +330,8 @@ body {
     position: absolute;
     top: 0;
     left: 35%;
-    height: 550px;
-    width: 450px;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears linear;
@@ -342,9 +342,9 @@ body {
 .mar6{
     position: absolute;
     top: 0;
-    right: 2%;
-    height: 550px;
-    width: 450px;
+    right: 1%;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears 1s linear;
@@ -356,8 +356,8 @@ body {
     position: absolute;
     top: 23%;
     left: 2%;
-    height: 550px;
-    width: 450px;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears linear;
@@ -369,8 +369,8 @@ body {
     position: absolute;
     top: 23%;
     left: 35%;
-    height: 550px;
-    width: 450px;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears linear;
@@ -381,9 +381,9 @@ body {
 .mar9{
     position: absolute;
     top: 23%;
-    right: 2%;
-    height: 550px;
-    width: 450px;
+    right: 1%;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears 1s linear;
@@ -395,8 +395,8 @@ body {
     position: absolute;
     top: 46%;
     left: 2%;
-    height: 550px;
-    width: 450px;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears linear;
@@ -408,8 +408,8 @@ body {
     position: absolute;
     top: 46%;
     left: 35%;
-    height: 550px;
-    width: 450px;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears linear;
@@ -420,9 +420,9 @@ body {
 .mar12{
     position: absolute;
     top: 46%;
-    right: 2%;
-    height: 550px;
-    width: 450px;
+    right: 1%;
+    height: 64vh;
+    width: 31vw;
     border-radius: 2%;
     box-shadow: 0 0 0 0.7;
     animation: appears 1s linear;
